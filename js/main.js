@@ -98,10 +98,11 @@ $('.brand-active').owlCarousel({
 	dots:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+			dots:false,
         },
         767:{
-            items:5
+            items:3
         },
         992:{
             items:5
