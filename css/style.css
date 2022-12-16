@@ -157,7 +157,7 @@ hr {
 	transition: .3s;
 }
 .btns:hover{
-	color: #2a405f; 
+	color: #fff; 
 	background-color: tomato;
 	padding-left: 50px;
 }
