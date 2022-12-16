@@ -1,0 +1,53 @@
+/* Normal desktop (XL) :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop (LG-Dives) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-manu ul li {
+        margin: 0 13px;
+    }
+    .access-texts h3 {
+        font-size: 36px;
+    }
+
+    .title-black h2 {
+        font-size: 38px;
+    }
+    .newsletter-form input {
+        width: 73%;
+    }
+
+}
+
+ 
+/* Tablet desktop (MD-Dives) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-transparent {
+        padding: 25px 0;
+    }
+    .slider-text {
+        margin-bottom: 20px;
+    }
+    .slider-text h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+}
+
+ 
+/* small mobile (XS-Dives):320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
