@@ -1,7 +1,7 @@
 /*
   Theme Name: Name - Multipurpose HTML Template
-  Author: mdsalim400@gmail.com
-  Support: admin@gmail.com
+  Author: mohammodjuwo
+  Support: mohammodjuwel61@gmail.com
   Description: Creative  HTML5 template.
   Version: 1.0
 */
@@ -11,13 +11,14 @@
 1. Theme default css
 2. header
 3. slider
-4. about-area
-5. features-box
-6. department
-7. team
-8. video-area
-9. counter
-10. footer
+4. how-work
+5.access
+6.features
+7.price
+8.testimonial
+9.brand
+10.nuwsletter
+.footer
 */
 
 
@@ -29,6 +30,7 @@
 	font-weight: normal;
 	font-style: normal;
 	color: #7b8491;
+	font-size: 14px;
 }
 .img {
 	max-width: 100%;
@@ -175,6 +177,29 @@ hr {
 	color: #fff;
 }
 
+.btns-squ{
+	border-color: #ede3e7;
+	border-radius: 3px;
+	transition: .3s;
+}
+.btns-squ:hover{
+	border-color: #ff5b5b;
+	background-color: #ff5b5b;
+	color: #fff;
+}
+
+.btns-squ-bg{
+	color: #1c3354;
+	background-color: #fff;
+	border-radius: 3px;
+	transform: .3s;
+}
+
+.btns-squ-bg:hover{
+	color: #fff;
+	background-color: #ff5b5b;
+}
+
 /* .section-title */
 .section-title h2 {
 	font-size: 45px;
@@ -184,8 +209,22 @@ hr {
 	color: #1c3354;
 }
 
+.section-title-2 h2 {
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 44px;
+}
+.section-title-2 span {
+	font-size: 15px;
+	color: #ff5b5b;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	display: inline-block;
+	letter-spacing: .6px;
+}
 
 /* <!-- header-area-code-start --> */
+
 .header-transparent {
 	position: absolute;
 	top: 0;
@@ -193,6 +232,7 @@ hr {
 	right: 0;
 	z-index: 999;
 }
+
 
 .main-manu ul li {
 	display: inline-block;
@@ -259,6 +299,22 @@ hr {
 	opacity: 1;
 	visibility: visible;
 }
+
+
+/* header 2 code-start */
+.red-manu ul li  a {
+    color: #233d63;
+    padding: 37px 0;
+}
+.red-manu ul li:hover > a{
+	color: #ff5b5b;
+}
+
+.red-manu ul li ul.submanu{
+	border-color: #ff5b5b;
+}
+
+
 /* <!-- header-area-code-end --> */
 
 
@@ -288,6 +344,20 @@ hr {
 	margin-bottom: 30px;
 }
 
+/* horo-code-start */
+.horo-padding{
+	padding: 0 60px;
+}
+.slider-height-2{
+	min-height: 720px;
+
+}
+.slider-text-2 h2{
+	color: #fff;
+}
+.slider-text-2 h2 span{
+	color: #fff;
+}
 /* <!-- .slider-area-code-end --> */
 
 
@@ -375,6 +445,53 @@ hr {
 .single-feature:hover{
 	box-shadow: 0px 10px 30px 0px rgba(0, 3, 143, 0.1);
 	background-color: transparent;
+}
+
+
+/* features-2-code-start */
+.fea-img img {
+	margin-left: -25px;
+}
+
+.fea-icon span {
+	width: 55px;
+	height: 55px;
+	display: inline-block;
+	background: #eef5ff;
+	border-radius: 50%;
+}
+
+
+.features-prent .col-xl-6:nth-child(2) .fea-icon span{
+	background-color: #ffe7e7;
+}
+.features-prent .col-xl-6:nth-child(3) .fea-icon span{
+	background-color: #fbe8ff;
+}
+.features-prent .col-xl-6:nth-child(4) .fea-icon span{
+	background-color: #ffefdb;
+}
+
+.fea-icon {
+	position: relative;
+}
+.fea-icon img {
+	position: absolute;
+	top: 15px;
+	left: 33px;
+	transition: .3s;
+}
+.fea-list:hover .fea-icon img{
+	left: 25px;
+}
+
+.fea-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.fea-text p{
+	margin: 0;
 }
 /* <!-- feature-area-code-end --> */
 
@@ -672,3 +789,193 @@ hr {
 	text-transform: uppercase;
 }
 /* footer-area-code-end */
+
+
+
+/* what-we-code-start */
+
+.what-do-list {
+	padding: 50px 45px;
+	transition: .3s;
+	border: 1px solid #dee2e8;
+}
+
+.what-do-list:hover{
+	background: #ff5b5b;
+}
+
+.what-icon span {
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	background: #eef5ff;
+	border-radius: 50%;
+}
+
+.what-icon {
+	position: relative;
+	display: inline-block;
+}
+.what-icon img {
+	position: absolute;
+	top: 15px;
+	left: 35px;
+	transition: .3s;
+}
+
+.what-do-list:hover .what-icon img {
+	left: 20px;
+}
+
+.what-text h4 {
+	border-top: 1px solid aliceblue;
+	display: inline-block;
+	padding-top: 29px;
+	margin-top: 26px;
+	font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+	transition: .3s;
+}
+
+.what-do-list:hover .what-text h4{
+	color: #fff;
+}
+
+
+.what-text p{
+	margin: 0;
+	transition: .3s;
+}
+
+.what-do-list:hover .what-text p{
+	color: #fff;
+}
+	
+
+.what-text a{
+	color: #ff5b5b;
+	margin-top: 40px;
+	display: inline-block;
+	transition: .3s;
+	margin-bottom: 12px;
+	font-weight: 500;
+	letter-spacing: .6px;
+	font-size: 12px;
+	position: relative;
+}
+
+.what-do-list:hover .what-text a{
+	color: #fff;
+}
+
+.what-text a::before {
+	position: absolute;
+	content: "";
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	width: 80px;
+	height: 1px;
+	background-color: #dee2e8;
+	margin: auto;
+	transition: .3s;
+}
+.what-do-list:hover .what-text a::before{
+	background-color: #fff;
+}
+	
+
+/* what-we-code-end */
+
+
+
+
+
+/* fea-list-area-code-start */
+.fea-content-list h2 {
+	font-size: 36px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.fea-content-list span {
+	color: #ff5b5b;
+	line-height: 27px;
+	margin-bottom: 17px;
+	display: block;
+}
+.fea-content-list p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #7b8491;
+	line-height: 28px;
+	margin-bottom: 38px;
+}
+
+
+.fea-list-left-img img {
+	margin-left: -30px;
+}
+/* fea-list-area-code-end */
+
+
+
+
+/* pricing-tab-area-code-start */
+
+.pricing-tab-text {
+	padding: 61px 60px;
+	border: 1px solid #e0e3e7;
+}
+
+
+.price-tab-img {
+  margin-bottom: 25px;
+}
+.price-value {
+  border-top: 1px solid #e0e3e7;
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
+
+.price-value h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.price-value span {
+	display: inline-block;
+	font-size: 16px;
+	color: #a2a8b0;
+}
+
+.pricing-tab-text p {
+	margin-bottom: 35px;
+}
+/* pricing-tab-area-code-end */
+
+
+
+/* .pricing-tab-manu li{
+	border: 0;
+}
+
+.pricing-tab-manu li a {
+  color: crimson;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px;
+  border: 0;
+}
+.pricing-tab-manu li a.active {
+  color: green;
+} */
+
+
+.nav-link.active {
+	border: 0;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	border-color: transparent;
+}
